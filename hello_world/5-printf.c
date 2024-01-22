@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - A program that print the size of the various tyes on the computer
- * Return: 0 (Success)
+ * main - A program that print the size of the various tyes on the computer;
+ * Return: 0 (Success);
  */
 int main(void)
 {
