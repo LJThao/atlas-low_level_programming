@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - C program that prints exacly... this.. the puts function
+ * main - A program that prints exacly... this.. the puts function
 n
  * Return: 0 (Success)
  */
