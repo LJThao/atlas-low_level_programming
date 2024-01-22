@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - Entry point
+ * main - Patience, persistence and perspiration make an unbeatable combination for success
  *
  * Return: Always 0 (Success)
  */
