@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
  * print alpha_x10 - Prints x10 alphabet
- *
  * Return: void
  */
+
 void print_alphabet_x10(void)
+
 {
   char c;
   int i = 0;
