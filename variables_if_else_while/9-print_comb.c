@@ -3,11 +3,12 @@
 #include <time.h>
 
 /**
- * main - Patience, persistence and perspiration make an unbeatable combination for success
- *
+ * main - prints all possible combinations of single-digit numbers
  * Return: Always 0 (Success)
  */
+
 int main(void)
+
 {
 	int d;
 	for (d = '0'; d <= '9'; d++)
