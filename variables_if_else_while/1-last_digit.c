@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main - The last digit
- * n: Random number
- * s: last digit
- * Description: Get last digit of the number with % 10 and
- * verify @s for each condition
- *  Return: Always 0
- *  */
+ *
+ * Return: Always 0
+ */
+
 int main(void)
+
 {
 	int n;
 	int s;
