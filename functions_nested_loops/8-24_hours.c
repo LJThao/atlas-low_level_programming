@@ -3,7 +3,9 @@
 /**
  * void jack_bauer - prints the time
  */
+
 void jack_bauer(void)
+
 {
 
 	int hour, minute;
