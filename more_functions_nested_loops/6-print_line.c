@@ -3,13 +3,13 @@
 /**
  * print_line - draws a straight line
  * @n: is # of times for the character
- * Return: empty
+ * Return: Always (0)
  */
 
 int print_line(int n)
 {
 	int a;
-	
+
 	if (n <= 0)
 	{
 	_putchar('\n');
