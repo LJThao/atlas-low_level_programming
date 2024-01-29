@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_numbers - prints the numbers from 0 to 9
+ * print_numbers - numbers from 0 to 9
  * @a: the numbers
- * Return: numbers since 0 up to 9
+ * Return: 0 to 9
  */
 
 void print_numbers(void)
