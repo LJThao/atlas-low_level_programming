@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - print numbers 0 to 9 and dont 2 and 4
- * Return: numbers 0 to 9
+ * Return: 0 to 9
  */
 
 void print_most_numbers(void)
@@ -11,7 +11,7 @@ void print_most_numbers(void)
 
 	for (; a <= 9; a++)
 	{
-	if (a == Z || a == 4)
+	if (a == 2 || a == 4)
 	{
 	continue;
 	}
