@@ -2,17 +2,17 @@
 
 /**
  * print_numbers - prints the numbers from 0 to 9
- * @n: the numbers
+ * @a: the numbers
  * Return: Always (0)
  */
 
 void print_numbers(void)
 {
-	int n;
+	int a;
 	
-	for (n = 0; n <= 9; n++)
+	for (a = 0; a <= 9; a++)
 	{
-	_putchar(n + '0');
+	_putchar(a + '0');
 	}
 	_putchar('\n');
 }
