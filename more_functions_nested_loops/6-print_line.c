@@ -8,7 +8,7 @@
 
 int print_line(int n)
 {
-	int lj;
+	int a;
 	
 	if (n <= 0)
 	{
@@ -16,7 +16,7 @@ int print_line(int n)
 	}
 	else
 	{
-	for (lj = 0; lj < n; lj++)
+	for (a = 0; a < n; a++)
 	{
 	_putchar(95);
 	}
