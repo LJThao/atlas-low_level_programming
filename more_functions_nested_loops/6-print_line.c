@@ -3,7 +3,7 @@
 /**
  * print_line - draws a straight line
  * @n: is # of times for _
- * Return: Always (0)
+ * Return: empty
  */
 
 int print_line(int n)
