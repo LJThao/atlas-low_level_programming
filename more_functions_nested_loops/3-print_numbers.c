@@ -2,7 +2,6 @@
 
 /**
  * print_numbers - numbers from 0 to 9
- * @a: the numbers
  * Return: 0 to 9
  */
 
