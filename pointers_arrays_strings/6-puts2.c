@@ -2,7 +2,7 @@
 
 /**
  * puts2 = prints every other character
- * @str: string
+ * @str: string that prints
  * Return: void
  */
 
@@ -11,7 +11,7 @@ void puts2(char *str)
 	int l;
 	int j = 0;
 
-	while (str[j] != '0')
+	while (str[j] != '\0')
 	{
 	j++;
 	}
