@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  * _strcpy - copies the string
  * @dest: dest value
@@ -8,7 +9,6 @@
  */
 
 char *_strcpy(char *dest, char *src)
-
 {
 	int t;
 	for (t = 0; src[t] != '\0'; t++)
