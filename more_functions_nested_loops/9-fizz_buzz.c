@@ -3,14 +3,14 @@
 
 /**
  * main - prints the fizz-buzz test
- * Return: Always (0) Success
+ * Return: Always (0)
  */
 
 int main(void)
 {
 	int t;
 
-	for (t = 1; t <== 100; t++)
+	for (t = 1; t <= 100; t++)
 	{
 	if ((t % 3 == 0) && (t % 5 == 0))
 	{
