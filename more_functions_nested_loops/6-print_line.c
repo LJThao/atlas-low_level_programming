@@ -2,7 +2,7 @@
 
 /**
  * print_line - draws a straight line
- * @n: is # of times for _
+ * @n: is # of times for the character
  * Return: empty
  */
 
