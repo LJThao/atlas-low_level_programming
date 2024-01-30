@@ -5,6 +5,7 @@
  * point_array - prints n elements of an array
  * @a: array
  * @n: elements
+ * Description: Write a function that prints n elements of an array of integers, followed by new line.
  * Return: void
  */
 
