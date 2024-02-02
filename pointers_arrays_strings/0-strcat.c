@@ -7,17 +7,17 @@
  * Return: the dest string
  */
 
-char *_strcat(char *dest, char *src)
+char _strcat(char *dest, char *src)
 {
 	int s = 0, i;
 	while (dest[s])
 	{
-	s+++;
+	s++;
 	}
 	for (i = 0; src[i] != 0; i++;
 	{
 	dest[s] = src[i];
-	s+++;
+	s++;
 	}
 	dest[s] = '\0';
 	return (dest);
