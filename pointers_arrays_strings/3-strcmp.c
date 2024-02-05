@@ -4,7 +4,7 @@
  * _strcmp - Write a function that compares two strings.
  * @s1: 1st string
  * @s2: 2nd string
- * Return: r value
+ * Return: int h value
  */
 
 int _strcmp(char *s1, char *s2)
@@ -23,11 +23,11 @@ int _strcmp(char *s1, char *s2)
 
 	if (l <= j)
 	{
-		lim = a;
+		lim = l;
 	}
 	else
 	{
-		lim = b;
+		lim = j;
 	}
 
 	while (t <= lim)
@@ -39,11 +39,11 @@ int _strcmp(char *s1, char *s2)
 		}
 		else
 		{
-			r = s1[t] - s2[t];
+			h = s1[t] - s2[t];
 			break;
 		}
 
 		t++;
 	}
-	return (r);
+	return (h);
 }
