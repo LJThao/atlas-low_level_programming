@@ -1,6 +1,6 @@
 #include "main.h"
 
-/** _strncpy - Write a function that copies a string.
+/* _strncpy - Write a function that copies a string.
  * @dest: dest string.
  * @src: source string.
  * @n: int n of bytes.
@@ -16,9 +16,9 @@ char *_strncpy(char *dest, char *src, int n)
 	
 	for (lj = 0; src[lj] && lj < n; lj++)
 	dest[lj] = src[lj];
-
+	
 	for (lj = src_len; lj < n; lj++)
 	dest[lj] = '\0';
-
+	
 	return (dest);
 }
