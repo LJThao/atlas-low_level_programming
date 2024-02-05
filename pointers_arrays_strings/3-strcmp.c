@@ -4,12 +4,12 @@
  * _strcmp - Write a function that compares two strings.
  * @s1: 1st string
  * @s2: 2nd string
- * Return: h value
+ * Return: r value
  */
 
 int _strcmp(char *s1, char *s2)
 {
-	int l = 0, j = 0, t = 0, h = 0, lim;
+	int l = 0, j = 0, t = 0, r = 0, lim;
 
 	while (s1[l])
 	{
@@ -39,11 +39,11 @@ int _strcmp(char *s1, char *s2)
 		}
 		else
 		{
-			h = s1[t] - s2[t];
+			r = s1[t] - s2[t];
 			break;
 		}
 
 		t++;
 	}
-	return (h);
+	return (r);
 }
