@@ -2,11 +2,11 @@
 
 /**
  * print_chessboard - Write a function that prints the chessboard.
- * @a: a string
+ * @a: char a
  * Return: Always 0
  */
 
-void print_chessboard(char (*a)[8]);
+void print_chessboard(char (*a)[8])
 {
 	int l, j;
 
