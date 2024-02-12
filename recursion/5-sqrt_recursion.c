@@ -23,12 +23,12 @@ int _sqrt_recursion(int n)
 
 int _sqrt(int n, int i)
 {
-	int lj = i * i;
+	int rt = i * i;
 
-	if (lj > n)
+	if (rt > n)
 		return (-1);
 
-	if (lj == n)
+	if (rt == n)
 		return (i);
 	return (_sqrt(n, i + 1));
 }
