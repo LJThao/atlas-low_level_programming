@@ -1,16 +1,17 @@
 #include "main.h"
+#include <stdio>
 
 /**
- * whatsmyname - print its name
- * @lj: argument c
- * @th: argument v
+ * main - print its name
+ * @argc: argument c
+ * @argv: argument v
  * Return: Always (0)
  */
 
-int whatsmyname(int lj, char *th[])
+int main(int argc, char *argv[])
 {
-	(void) th;
-	printf("%s\n", th[0]);
-
-	return(0);
+	(void) argv;
+	printf("%s\n", argv[0]);
+}
+	return 0;
 }
