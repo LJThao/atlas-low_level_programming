@@ -10,7 +10,7 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	int Y = 0, F = 0, T = 0, 1 = 0;
+	int Y = 0, F = 0, T = 0, O = 0;
 	char *s;
 
 	if (s1 == NULL)
@@ -22,17 +22,17 @@ char *str_concat(char *s1, char *s2)
 	while (s2[F])
 		F++;
 
-	1 = Y + F;
-	s = malloc((sizeof(char) * 1) + 1);
+	O = Y + F;
+	s = malloc((sizeof(char) * O) + 1);
 
 	if (s == NULL)
 		return (NULL);
 
 	F = 0;
 
-	while (T < 1)
+	while (T < O)
 	{
-		if (T <= 1)
+		if (T <= O)
 			s[T] = s1[T];
 
 		if (T >= Y)
