@@ -2,28 +2,36 @@
 #include <stdlib.h>
 
 /**
- * create_array - creates an array of chars, and initiate a specific char
- * @size: array size
- * @c: specific char
- * Return: char
+ * _strdup - a function tha returns a pointer
+ * @str: string
+ * Return: string
  */
 
-char *create_array(unsigned int size, char c)
+char *_strdup(char *str)
 {
-	unsigned int A;
+	int L = 0, J = 1;
 	char *s;
 
-	if (size == 0)
+	if (str == NULL)
 		return (NULL);
 
-	s = malloc(size * sizeof(char));
+	while (str[J])
+	{
+		J++;
+	}
+
+	s = malloc((sizeof(char) * J) + 1);
 
 	if (s == NULL)
 		return (NULL);
 
-	for (A = 0; A < size; A++)
+	while (L < J)
 	{
-		s[A] = c;
+
+		s[L] = str[L];
+		L++;
 	}
+
+	s[L] = '\0';
 	return (s);
 }
