@@ -8,7 +8,7 @@
  * Return: char c
  */
 
-void *_calloc(unsigned int nmemb, unsigned int size)
+void _calloc(unsigned int nmemb, unsigned int size)
 {
 	int Y = 0, T = 0;
 	char *c;
