@@ -5,28 +5,29 @@
  * calloc - allocates memory for an array, using malloc
  * @nmemb: int nmemb
  * @size: int size
- * Return: char L
+ * Return: char c
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	int Y = 0, T = 0;
-	char *L;
+	char *c;
 
-	if (nmemb == 0 || size == 0)
+	if (nmemb == 0)
+	if (size == 0)
 		return (NULL);
 
 	T = nmemb * size;
-	L = malloc(Y);
+	c = malloc(T);
 
 	if (L == NULL)
 		return (NULL);
 
 	while (Y < T)
 	{
-		L[Y] = 0;
+		c[Y] = 0;
 		Y++;
 	}
 
-	return (L);
+	return (c);
 }
