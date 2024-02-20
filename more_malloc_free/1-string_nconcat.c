@@ -38,8 +38,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		if (F <= Y)
 			str[F] = s1[F];
 		
-		if (F >= Y)
-		if (F < Y + n)
+		if (F >= Y && F < Y + n)
 		{
 			str[F] = s2[T];
 			T++;
