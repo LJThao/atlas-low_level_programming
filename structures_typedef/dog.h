@@ -3,9 +3,9 @@
 
 /**
  * struct dog - type with the following elements
- * @name - name
- * @age - age
- * @owner - owner
+ * @name: name
+ * @age: age
+ * @owner: owner
  *
  */
 
