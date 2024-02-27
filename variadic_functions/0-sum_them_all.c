@@ -3,27 +3,21 @@
 
 /**
  * sum_them_all - function that returns the sum
- * @n: int n
- * Return: 0
+ * @n: # of arguments
+ * Return: sum
  */
 
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list args;
-	unsigned int s = 0;
+	unsigned int z;
 	int sum = 0;
 
-	if (n != 0)
-	{
-		va_start(args, n);
+	va_list list;
 
-		while(s < n)
-		{
-			sum += va_arg(args, int);
-			s++;
-		}
-		va_end(args);
-		return (sum);
-	}
-	return (0);
+	va_start(list, n);
+
+	for (z = 0; z < n; z++)
+		sum += va_arg(list, int);
+	va_end(list);
+	return (sum);
 }
