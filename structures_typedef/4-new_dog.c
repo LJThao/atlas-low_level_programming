@@ -42,3 +42,34 @@ dog_t *new_dog(char *name, float age, char *owner) {
 	}
 	return (lj-dog);
 }
+
+/**
+ * _strlen - returning the length of the string
+ * @s: string
+ * Return: string
+ */
+
+int _strlen(char *s) {
+	int t = 0;
+
+	for (; *s != '\0'; s++) {
+		t++;
+	}
+	return (t);
+}
+
+/**
+ * _strcpy - a copied string
+ * @dest: dest
+ * @src: src
+ * Return: all
+ */
+
+char *_strcpy(char *dest, char *src) {
+	int a;
+
+	for (a = 0; src[a] != '\0'; a++) {
+		dest[a] = src[a];
+	return (dest);
+	}
+}
