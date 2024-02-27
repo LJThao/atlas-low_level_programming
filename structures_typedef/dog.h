@@ -20,9 +20,6 @@ struct dog
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 void free_dog(dog_t *d);
-int _strlen(char *s);
-char *_strcpy(char *dest, char *src);
-
 
 /**
  * dog_t - new name for the type struct dog
