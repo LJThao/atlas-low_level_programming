@@ -1,4 +1,4 @@
-#ifdef VARIADIC_HEADER
+#ifndef VARIADIC_HEADER
 #define VARIADIC_HEADER
 
 #include <stdarg.h>
