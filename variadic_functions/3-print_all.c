@@ -22,14 +22,14 @@ void print_all(const char * const format, ...)
 			switch(format[z])
 			{
 				case 'c':
-					printf("%c%s", u, va_arg(list, int));
+					printf("%s%c", u, va_arg(list, int));
 					break;
 
 				case 'i':
-					printf("%d%s", u, va_arg(list, int));
+					printf("%s%d", u, va_arg(list, int));
 					break;
 				case 'f':
-					printf("%f%s", u, va_arg(list, double));
+					printf("%s%f", u, va_arg(list, double));
 					break;
 				case 's':
 					t = va_arg(list, char *);
@@ -41,7 +41,7 @@ void print_all(const char * const format, ...)
 					z++;
 					continue;
 			}
-			u = ",";
+			u = ", ";
 			z++;
 		}
 	}
