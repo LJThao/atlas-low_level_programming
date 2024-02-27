@@ -1,5 +1,5 @@
-#ifndef F&P_HEADER
-#define F&P_HEADER
+#ifndef FUNCTION_HEADER
+#define FUNCTION_HEADER
 
 /**
  * struct op - Struct op
