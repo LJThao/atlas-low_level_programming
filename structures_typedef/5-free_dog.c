@@ -4,17 +4,15 @@
 /**
  * free_dog - function that frees dogs
  * @d: dog
- * Return: d
+ * Return: 0
  */
 
 void free_dog(dog_t *d)
 {
-	if (d == 0)
-		return;
-	if (d->owner);
+	if (d != NULL)
+	{
 		free(d->owner);
-	if (d->name);
 		free(d->name);
-	free(d);
+		free(d);
 	}
 }
