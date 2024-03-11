@@ -21,7 +21,7 @@ size_t print_listint(const listint_t *h)
 		node++;
 
 	}
-	printf("%d\n", h->);
+	printf("%d\n", h->);;
 
 	return (node);
 }
