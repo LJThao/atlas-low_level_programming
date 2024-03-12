@@ -26,7 +26,7 @@ int _cpfile(int a, char *str, int b)
 			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", b);
 			exit(a);
 		default:
-			return (0);;
+			return (0);
 	}
 }
 
@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
 	{
 		if (rs == -1)
 			_cpfile(98, argv[1], 0);
-		
+
 		ws = write(file_from, buffer, rs);
 		if (ws == -1)
 			_cpfile(99, argv[2], 0);
