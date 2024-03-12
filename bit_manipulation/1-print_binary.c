@@ -9,21 +9,21 @@
 void print_binary(unsigned long int n)
 {
 	unsigned long int bin = 1ul << 63;
-	char a = '0';
+	char c = '0';
 
 	while (!(bin & n) && bin != 0)
 		bin = bin >> 1;
 
 	if (bin == 0)
-		write(1, &a, 1);
+		write(1, &c, 1);
 
 	while (bin)
 	{
 		if (bin & n)
-			a = '1';
+			c = '1';
 		else
-			a = '0';
-		write(1, &a, 1);
+			c = '0';
+		write(1, &c, 1);
 		bin = bin >> 1;
 	}
 }
