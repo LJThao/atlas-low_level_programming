@@ -26,7 +26,7 @@ int append_text_to_file(const char *filename, char *text_content)
 			z++;
 		y = write(file_x, text_content, z);
 	}
-	if (close(file) == -1 || z != y)
+	if (close(file_x) == -1 || z != y)
 		return (-1);
 	return (1);
 }
