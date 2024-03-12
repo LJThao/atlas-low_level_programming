@@ -8,7 +8,7 @@
 
 void print_binary(unsigned long int n)
 {
-	unsigned long int bin - 1ul << 63;
+	unsigned long int bin = 1ul << 63;
 	char a = '0';
 
 	while (!(bin & n) && bin != 0)
