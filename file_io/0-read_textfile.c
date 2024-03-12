@@ -2,7 +2,7 @@
 
 /**
  * read_textfile - function that reads a text file and prints
- * @filename: filename 
+ * @filename: filename
  * @letters: letters
  * Return: filename is NULL 0 or actual letters
  */
