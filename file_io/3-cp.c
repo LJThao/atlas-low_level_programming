@@ -15,18 +15,18 @@ int _cpfile(int a, char *str, int b)
 	{
 		case 97:
 			dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
-			exit(error);
+			exit(a);
 		case 98:
-			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", s);
-			exit(error);
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", str);
+			exit(a);
 		case 99:
-			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", s);
-			exit(error);
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", str);
+			exit(a);
 		case 100:
-			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", b;
-			exit(error);
+			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", b);
+			exit(a);
 		default:
-			return (0);
+			return (0);;
 	}
 }
 
